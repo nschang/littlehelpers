@@ -1,0 +1,13 @@
+# get all images names after a pattern on a page 
+
+for i in {1..26}; do
+  wget https://static01.nyt.com/images/2020/04/15/arts/15kimmelman-rockcenter${i}/15kimmelman-rockcenter${i}-superJumbo.jpg
+done
+
+# for links with single variable
+
+wget https://static01.example.com/image{1..30}.jpg
+
+# alternatively for links with single variable and save to (etc01.jpg, etc02.jpg, ...)
+
+curl http://www.example.com/blabla/[01-09].jpg -o etc#1.jpg 
