@@ -7,10 +7,10 @@
 
 * open '~/.config/karabiner/karabiner.json'  
 
-* Then, ... 
+* Then, add a new config
     <details>
     <summary>
-    <a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp; add a new config</a>    
+    <a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp; Click Here to Expand</a>          
     </summary>
 
     ```
@@ -88,16 +88,4 @@
     ```
 </details>
 
-this will map `print_screen` to the following keys   
-    `left_option`+`shift`+`7`: `\`  
-    `c`  
-    +  
-    `i`  
-    +  
-    `t`  
-    +  
-    `e`  
-    +  
-    `left_option`+`8`: `{`  
-
-
+Note: I use a German keyboard on a Mac, the keycode can be different for yours. 
