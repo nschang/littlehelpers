@@ -1,7 +1,9 @@
-# get all images names after a pattern on a page 
+# this grabs all images names after a sequence from a webpage 
 
-for i in {1..26}; do
-  wget https://static01.nyt.com/images/2020/04/15/arts/15kimmelman-rockcenter${i}/15kimmelman-rockcenter${i}-superJumbo.jpg
+# for multiple variables in link
+
+for i in {1..30}; do
+  wget https://static01.example.com/image{i}/image{i}-superJumbo.jpg
 done
 
 # for links with single variable
