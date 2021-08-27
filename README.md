@@ -1,12 +1,12 @@
-## handy scripts to make your life in academia a bit easier
-## 1. some useful zsh scripts
+## handy little helper scripts to make your life in academia easier
+### 1. [grab web image](grabwebimg)
 
-
-## 2. enter common latex operator (`\cite{`) with just one key 
+### 2. enter common ![formula](https://render.githubusercontent.com/render/math?math=\LaTeX) operator with just one key 
 * This requires `Karabiner-Elements.app`.
-
+* This replaces `print_screen` with the string `\cite{`, which in common ![formula](https://render.githubusercontent.com/render/math?math=\LaTeX) editors should bring up the reference selection window
 * open '~/.config/karabiner/karabiner.json'  
 
+          
 * Then, add a new config
     <details>
     <summary>
@@ -17,7 +17,7 @@
     {
       "manipulators": [
         {
-          "description": "replace unused key (print screen) with common latex operators (cite)",
+          "description": "replace unused key (print screen) with common LaTeX operators (cite)",
           "conditions": [
               {
                   "bundle_identifiers": [
