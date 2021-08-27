@@ -3,11 +3,9 @@
 
 ### 2. enter common ![formula](https://render.githubusercontent.com/render/math?math=\LaTeX) operator with just one key 
 * This requires `Karabiner-Elements.app`.
-* This replaces `print_screen` with the string `\cite{`, which in common ![formula](https://render.githubusercontent.com/render/math?math=\LaTeX) editors should bring up the reference selection window
-* open '~/.config/karabiner/karabiner.json'  
-
-          
-* Then, add a new config
+* This replaces `print_screen` with the string `\cite{`, which in common ![formula](https://render.githubusercontent.com/render/math?math=\LaTeX) editors should bring up the reference selection window.
+* First, open '~/.config/karabiner/karabiner.json'        
+* Then, in `"complex_modifications"` add a new config
     <details>
     <summary>
     <a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp; Click Here to Expand</a>          
@@ -88,4 +86,4 @@
     ```
 </details>
 
-Note: I use a German keyboard on a Mac, the keycode can be different for yours. 
+* Note: I use a German keyboard on a Mac, the keycode can be different for yours. 
