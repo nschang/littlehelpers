@@ -1,4 +1,4 @@
-## handy little helper scripts to make your life in academia easier
+## handy little helper scripts to take care of your life in academia
 ### 1. [grab web image](grabwebimg)
 
 ### 2. enter common ![formula](https://render.githubusercontent.com/render/math?math=\LaTeX) operator with just one key 
